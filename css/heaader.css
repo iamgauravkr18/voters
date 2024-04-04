@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+.top-header {
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+  height: 84px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: white;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  padding: 10px;
+}
+.right {
+  align-items: center;
+}
+.right nav {
+  display: flex;
+}
+.right nav ul li {
+  gap: 1rem;
+}
+.right ul {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  text-size-adjust: 50px;
+}
+.right nav ul li a {
+  margin: auto;
+  gap: 1rem;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif !important;
+}
+#even {
+  background-color: red;
+  color: white;
+}
+.body {
+  width: 70%;
+  margin: 30px auto;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+  min-height: 100vh;
+  display: flex;
+}
+.body-left {
+  width: 80%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.card {
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.266);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+  width: 25%;
+  padding: 7px;
+  flex-basis: 23%;
+}
+
+/* .card img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-position: top;
+} */
+.action {
+  float: right;
+}
+.addre {
+  height: 50px;
+}
+.icon a {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 2%;
+}
+.icon a:hover {
+  transition: 0.2s;
+  background-color: #cbf078;
+}
+.body-right {
+  width: 20%;
+  box-shadow: 0 3px 6px 0 rgba(94, 27, 27, 0.297);
+  padding-left: 4px;
+  background-color: #d5d8f0;
+}
+.body-right a {
+  text-decoration: none;
+}
+.LOCAL {
+  background: red;
+  color: white;
+}
+.LOCAL a {
+  text-decoration: none;
+  color: white;
+}
+h3 {
+  margin-left: 85px;
+}
+.h3 {
+  color: #220337cb;
+  font-size: 27px;
+
+  margin-left: 177px;
+}
+
+.body-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+#selec {
+  margin-top: 20px;
+}
+
+#Add {
+  color: white;
+  background-color: rgba(208, 20, 20, 0.782);
+  margin-left: 295px;
+  padding: 15px;
+  text-align: center;
+  font-family: "Poppins", sans-serif !important;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+  text-decoration: none;
+}
+#Add a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot {
+  margin-top: auto;
+}
+.copyright {
+  background: #1f3635;
+  color: white;
+  line-height: 2;
+  padding: 1.2rem 0 1.2rem 0;
+  font-size: 13px;
+  padding-left: 10px;
+}
+.row-align-item {
+  margin: auto;
+  display: flex;
+  gap: 35rem;
+  max-width: 1100px;
+}
+.allright {
+  position: relative;
+}
+.Virginia-Beach {
+  margin: auto;
+  margin-right: 25px;
+  float: right;
+}
+.Virginia-Beach img {
+  width: 16px;
+  height: 16px;
+}
+#veg {
+  text-decoration: none;
+  color: white;
+}
+.details-card {
+  display: flex;
+  width: 90%;
+  padding: 10px;
+  margin-top: 15px;
+  gap: 3rem;
+  background-color: honeydew;
+  border: 2px solid yellow;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
+}
+.btnn {
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+}
+.btnn button {
+  background-color: rgba(153, 29, 29, 0.742);
+}
+.btnn button a {
+  color: white;
+  text-decoration: none;
+}
+.left-content- {
+  display: flex;
+}
+.icon {
+  display: flex;
+  gap: 25px;
+}
+.left-content- {
+  display: flex;
+}
+.card-det-right {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+input[type="text"] {
+  height: 34px;
+}
+select#selec {
+  height: 34px;
+}
+.body-right div {
+  margin-top: 7px;
+  text-decoration: none;
+}
+input[type="submit"] {
+  color: white;
+  background-color: rgba(205, 20, 20, 0.766);
+}
+/* .img-cradd {
+  width: 180px;
+  height: 150px;
+  overflow: hidden;
+} */
+.img-cradd img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+}
+buttonf#remove-img {
+  background-color: midnightblue;
+  color: white;
+  margin-top: 10px;
+  width: 56px;
+}
